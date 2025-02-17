@@ -11,7 +11,27 @@ main {
   /* margin: 0 auto;
   max-width: 1280px; */
 }
+.custom-shape-divider-bottom-1739760440 {
+  position: absolute;
+  bottom: 0;
+  top: 590px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
 
+.custom-shape-divider-bottom-1739760440 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 197px;
+  transform: scaleX(-1); /* Yeh shape ko ulta kar dega */
+}
+
+.custom-shape-divider-bottom-1739760440 .shape-fill {
+  fill: #2a7d6c;
+}
 header {
   background-image: url("./images/Mask\ Group@2x.png");
   background-size: cover;
@@ -181,7 +201,8 @@ legend {
   cursor: pointer;
 }
 .s2 {
-  padding: 50px;
+  padding: 10px;
+  padding-bottom: 100px;
   background-color: #f5f5f5;
 }
 .s2__comp {
@@ -189,11 +210,12 @@ legend {
   max-width: 1280px;
 }
 .images {
-  padding: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   display: flex;
   flex-wrap: wrap;
   gap: 2.5rem;
-  justify-content: center;
+  justify-content: space-between;
 }
 .images img {
   border-radius: 12px;
@@ -242,11 +264,15 @@ button {
   max-width: 1280px;
 }
 .s3__comp {
-  margin-top: 30px;
+  padding-top: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 2px;
+  /* position: absolute;
+  top: 1100px;
+  left: 0;
+  right: 0; */
 }
 .s3__comp img {
   width: 90%;
@@ -291,8 +317,7 @@ button {
 }
 .btn {
   display: flex;
-  width: 371px;
-  height: 96px;
+  padding: 45px;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -301,28 +326,25 @@ button {
   margin-top: 10px;
   border: #5bc8af 2px solid;
   background-color: transparent;
-  /* padding: 20px;
-  padding-left: 40px;
-  padding-right: 40px; */
+  padding-left: 50px;
+  padding-right: 50px;
   border-radius: 4px;
 }
 .s4__comp {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-items: center; */
 }
-h3 {
-  padding-left: 30px;
-}
+
 .s4__comp1 {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   gap: 2rem;
   margin: 0 auto;
   max-width: 1280px;
-  padding: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 /* #s4__comp1 {
   display: flex;
@@ -330,6 +352,8 @@ h3 {
   gap: 1rem;
 } */
 #s4__comp2 {
+  justify-content: space-between;
+  align-items: center;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
@@ -367,7 +391,11 @@ footer {
   height: 500px;
 } */
 .footer__comp1 {
-  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
 
   /* height: 500px; */
 }
@@ -392,7 +420,7 @@ footer {
   font-size: 14px;
   padding-bottom: 30px;
   margin: 0 auto;
-  max-width: 1280px;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -701,8 +729,12 @@ h4 span {
     gap: 10px;
     padding: 20px;
   }
-  .hero__text p {
-    text-align: center;
+  .hero__text {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
   }
   h1 {
     color: #fff;
@@ -837,8 +869,12 @@ h4 span {
     gap: 10px;
     padding: 20px;
   }
-  .hero__text p {
-    text-align: center;
+  .hero__text {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
   }
   .contact {
     display: flex;
@@ -977,7 +1013,7 @@ h4 span {
   }
   .footer__img {
     position: absolute;
-    top: 45%;
+    top: 42%;
     right: 400px;
     transform: translateX(300px);
   }
@@ -1000,8 +1036,9 @@ h4 span {
   }
   #footer__para {
     padding-left: 38px;
-    padding-top: 10px;
+    padding-top: 5px;
     color: white;
+    font-size: 12px;
     text-align: start;
   }
   #bars {
