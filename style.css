@@ -350,10 +350,6 @@ button {
   position: relative;
   background-color: #153f38;
 }
-/* .footer__comp img {
-  width: 50%;
-  height: 500px;
-} */
 .footer__comp1 {
   display: flex;
   justify-content: center;
