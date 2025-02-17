@@ -7,26 +7,6 @@
 body {
   font-family: "Montserrat";
 }
-/* .custom-shape-divider-bottom-1739769108 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1739769108 svg {
-  position: relative;
-  display: block;
-  width: calc(150% + 1.3px);
-  height: 132px;
-}
-
-.custom-shape-divider-bottom-1739769108 .shape-fill {
-  fill: #ffffff;
-} */
 header {
   background-image: url("./images/Mask\ Group@2x.png");
   background-size: cover;
@@ -597,9 +577,6 @@ h4 span {
     -webkit-text-stroke: #fff 1px;
     color: transparent;
   }
-  .s2__comp {
-    /* padding: 100px; */
-  }
   .images {
     display: none;
   }
@@ -749,10 +726,6 @@ h4 span {
   h1 span {
     -webkit-text-stroke: #fff 1px;
     color: transparent;
-  }
-
-  .s2__comp {
-    /* padding: 100px; */
   }
   .images {
     display: none;
