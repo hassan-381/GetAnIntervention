@@ -7,27 +7,26 @@
 body {
   font-family: "Montserrat";
 }
-.custom-shape-divider-bottom-1739760440 {
+/* .custom-shape-divider-bottom-1739769108 {
   position: absolute;
   bottom: 0;
-  top: 590px;
   left: 0;
   width: 100%;
   overflow: hidden;
   line-height: 0;
+  transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1739760440 svg {
+.custom-shape-divider-bottom-1739769108 svg {
   position: relative;
   display: block;
-  width: calc(100% + 1.3px);
-  height: 197px;
-  transform: scaleX(-1);
+  width: calc(150% + 1.3px);
+  height: 132px;
 }
 
-.custom-shape-divider-bottom-1739760440 .shape-fill {
-  fill: #2a7d6c;
-}
+.custom-shape-divider-bottom-1739769108 .shape-fill {
+  fill: #ffffff;
+} */
 header {
   background-image: url("./images/Mask\ Group@2x.png");
   background-size: cover;
@@ -196,7 +195,7 @@ input::-webkit-input-placeholder {
   cursor: pointer;
 }
 .s2 {
-  padding: 10px;
+  padding: 20px;
   padding-bottom: 100px;
   background-color: #f5f5f5;
 }
@@ -210,7 +209,7 @@ input::-webkit-input-placeholder {
   display: flex;
   flex-wrap: wrap;
   gap: 2.5rem;
-  justify-content: space-between;
+  justify-content: center;
 }
 .images img {
   border-radius: 12px;
@@ -322,8 +321,6 @@ button {
   margin-top: 10px;
   border: #5bc8af 2px solid;
   background-color: transparent;
-  padding-left: 50px;
-  padding-right: 50px;
   border-radius: 4px;
 }
 
@@ -408,7 +405,7 @@ button {
   font-size: 14px;
   padding-bottom: 30px;
   margin: 0 auto;
-
+  padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -497,6 +494,7 @@ h4 span {
   .images {
     display: flex;
     gap: 1rem;
+    justify-content: center;
   }
   .images img {
     width: 50%;
@@ -628,7 +626,7 @@ h4 span {
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    width: 42%;
+    padding: 40px;
   }
   .s4 {
     display: flex;
@@ -646,6 +644,7 @@ h4 span {
     flex-direction: column;
     gap: 1rem;
     padding-bottom: 5px;
+    padding: 20px;
   }
   #s4__para {
     width: 100%;
@@ -654,6 +653,7 @@ h4 span {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
+    padding: 20px;
   }
   .footer__comp {
     display: flex;
@@ -721,6 +721,19 @@ h4 span {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+  }
+  .btn {
+    display: flex;
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+    border: #5bc8af 2px solid;
+    background-color: transparent;
+    border-radius: 4px;
   }
   h1 {
     color: #fff;
@@ -1012,7 +1025,7 @@ h4 span {
     object-fit: cover;
   }
   .footer__text {
-    font-size: 14px;
+    font-size: 12px;
     display: flex;
     flex-direction: column;
     justify-content: center;
