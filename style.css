@@ -36,6 +36,7 @@ header {
   object-fit: cover;
   width: 100%;
   height: 100%;
+  padding: 10px;
 }
 .nav {
   display: flex;
@@ -157,9 +158,7 @@ input::-webkit-input-placeholder {
   line-height: 34px;
   padding-bottom: 30px;
 }
-legend {
-  font-size: 13px;
-}
+
 .from2 {
   display: flex;
   justify-content: space-between;
@@ -307,6 +306,7 @@ button {
   width: 10%;
 }
 .s4 {
+  padding: 10px;
   padding-top: 50px;
   margin: 0 auto;
   max-width: 1280px;
