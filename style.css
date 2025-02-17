@@ -285,7 +285,7 @@ button {
   width: 10%;
 }
 .s4 {
-  padding: 10px;
+  padding: 20px;
   padding-top: 50px;
   margin: 0 auto;
   max-width: 1280px;
@@ -338,6 +338,7 @@ button {
   top: 30%;
   right: -280px;
 }
+
 .footer__comp {
   margin-top: 30px;
   display: flex;
@@ -349,6 +350,13 @@ button {
   margin: 0 auto;
   max-width: 1280px;
   display: flex;
+  flex-direction: column;
+}
+.play_button {
+  position: absolute;
+  top: 33%;
+  bottom: 50%;
+  left: 70%;
 }
 .footer__comp1 {
   display: flex;
@@ -519,10 +527,11 @@ h4 span {
   .footer__comp2 {
     padding-bottom: 60px;
   }
-  .footer__img {
+  .play_button {
     position: absolute;
-    top: 40%;
-    right: 60px;
+    top: 36%;
+    bottom: 50%;
+    left: 40%;
   }
   .footer__comp {
     margin-top: 30px;
@@ -642,10 +651,11 @@ h4 span {
     padding-bottom: 60px;
     width: 100%;
   }
-  .footer__img {
+  .play_button {
     position: absolute;
-    top: 42%;
-    right: 70px;
+    top: 40%;
+    bottom: 50%;
+    left: 36%;
   }
   .footer__comp {
     margin-top: 30px;
@@ -674,7 +684,7 @@ h4 span {
   }
 }
 
-@media only screen and (max-width: 543px) {
+@media only screen and (max-width: 620px) {
   .nav {
     padding: 20px;
   }
@@ -791,10 +801,11 @@ h4 span {
     text-align: center;
     width: 100%;
   }
-  .footer__img {
+  .play_button {
     position: absolute;
-    top: 39%;
-    right: 80px;
+    top: 35%;
+    bottom: 50%;
+    left: 35%;
   }
   .footer__comp {
     margin-top: 30px;
@@ -822,7 +833,7 @@ h4 span {
     display: block;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 495px) {
   .nav {
     padding: 20px;
   }
@@ -981,10 +992,11 @@ h4 span {
     text-align: center;
     width: 100%;
   }
-  .footer__img {
+  .play_button {
     position: absolute;
-    top: 44%;
-    right: 70px;
+    top: 41%;
+    bottom: 50%;
+    left: 28%;
   }
   .footer__img img {
     width: 150px;
