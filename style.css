@@ -366,12 +366,13 @@ button {
   /* height: 500px; */
 }
 .footer__comp2 {
-  width: 90%;
+  width: 100%;
   display: flex;
   gap: 2rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 100px;
   padding-left: 100px;
   padding-right: 100px;
 }
@@ -529,7 +530,7 @@ h4 span {
   }
   .play_button {
     position: absolute;
-    top: 36%;
+    top: 42%;
     bottom: 50%;
     left: 40%;
   }
@@ -653,7 +654,7 @@ h4 span {
   }
   .play_button {
     position: absolute;
-    top: 40%;
+    top: 43%;
     bottom: 50%;
     left: 36%;
   }
@@ -994,11 +995,49 @@ h4 span {
   }
   .play_button {
     position: absolute;
-    top: 41%;
+    top: 44%;
     bottom: 50%;
-    left: 28%;
+    left: 35%;
   }
-  .footer__img img {
+  .play_button {
+    width: 150px;
+  }
+  .footer__comp {
+    margin-top: 30px;
+    display: flex;
+    position: relative;
+    background-color: #153f38;
+  }
+  #footer__img1 {
+    height: 600px;
+    object-fit: cover;
+  }
+  .footer__text {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #footer__para {
+    padding-left: 38px;
+    padding-top: 5px;
+    color: white;
+    font-size: 12px;
+    text-align: start;
+  }
+  #bars {
+    display: block;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .play_button {
+    position: absolute;
+    top: 47%;
+    bottom: 0%;
+    left: 25%;
+  }
+  .play_button {
     width: 150px;
   }
   .footer__comp {
