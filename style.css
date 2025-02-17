@@ -332,21 +332,21 @@ button {
   display: flex;
   width: 50%;
 }
-
 .footer__img {
   position: absolute;
   top: 30%;
   right: -280px;
 }
 #footer__img1 {
-  background-image: url(./images/Mask\ Group.png);
-  height: 500px;
+  height: 600px;
   width: 100%;
   object-fit: cover;
 }
 .footer__comp {
   background: linear-gradient(to bottom, #153f38, #305d52);
   width: 100%;
+  max-width: 1520px;
+  margin: auto;
   /* height: 500px; */
 }
 .footer__inner__container {
@@ -377,7 +377,6 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   padding-left: 100px;
   padding-right: 100px;
 }
@@ -608,6 +607,9 @@ h4 span {
     height: 600px;
     object-fit: cover;
   }
+  #bars {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -739,7 +741,7 @@ h4 span {
     align-items: center;
   }
   #bars {
-    display: block;
+    display: none;
   }
 }
 
