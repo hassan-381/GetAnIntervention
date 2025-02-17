@@ -7,10 +7,6 @@
 body {
   font-family: "Montserrat";
 }
-main {
-  /* margin: 0 auto;
-  max-width: 1280px; */
-}
 .custom-shape-divider-bottom-1739760440 {
   position: absolute;
   bottom: 0;
@@ -26,7 +22,7 @@ main {
   display: block;
   width: calc(100% + 1.3px);
   height: 197px;
-  transform: scaleX(-1); /* Yeh shape ko ulta kar dega */
+  transform: scaleX(-1);
 }
 
 .custom-shape-divider-bottom-1739760440 .shape-fill {
@@ -330,12 +326,6 @@ button {
   padding-right: 50px;
   border-radius: 4px;
 }
-.s4__comp {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center; */
-}
 
 .s4__comp1 {
   display: flex;
@@ -370,10 +360,7 @@ button {
   display: flex;
   width: 50%;
 }
-footer {
-  /* margin: 0 auto;
-  max-width: 1280px; */
-}
+
 .footer__img {
   position: absolute;
   top: 30%;
@@ -505,9 +492,7 @@ h4 span {
     -webkit-text-stroke: #fff 1px;
     color: transparent;
   }
-  .s2__comp {
-    /* padding: 100px; */
-  }
+
   .images {
     display: flex;
     gap: 1rem;
@@ -937,9 +922,7 @@ h4 span {
   .s2 {
     padding: 20px;
   }
-  .s2__comp {
-    /* padding: 100px; */
-  }
+
   .images {
     display: none;
   }
