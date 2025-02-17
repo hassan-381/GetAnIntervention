@@ -388,7 +388,6 @@ button {
 }
 .footer__comp2 {
   width: 90%;
-  padding-top: 50px;
   display: flex;
   gap: 2rem;
   flex-direction: column;
@@ -402,6 +401,8 @@ button {
   height: 400px;
 }
 .footer__text {
+  max-width: 1280px;
+  margin: 0 auto;
   font-family: "Montserrat";
   padding-top: 30px;
   font-size: 14px;
