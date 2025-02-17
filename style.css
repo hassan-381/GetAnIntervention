@@ -336,8 +336,7 @@ button {
 .footer__img {
   position: absolute;
   top: 30%;
-  right: 10px;
-  transform: translateX(300px);
+  right: -280px;
 }
 .footer__comp {
   margin-top: 30px;
@@ -519,8 +518,7 @@ h4 span {
   .footer__img {
     position: absolute;
     top: 40%;
-    right: 400px;
-    transform: translateX(300px);
+    right: 60px;
   }
   .footer__comp {
     margin-top: 30px;
@@ -643,8 +641,7 @@ h4 span {
   .footer__img {
     position: absolute;
     top: 42%;
-    right: 400px;
-    transform: translateX(300px);
+    right: 70px;
   }
   .footer__comp {
     margin-top: 30px;
@@ -792,9 +789,8 @@ h4 span {
   }
   .footer__img {
     position: absolute;
-    top: 42%;
-    right: 400px;
-    transform: translateX(300px);
+    top: 39%;
+    right: 80px;
   }
   .footer__comp {
     margin-top: 30px;
@@ -983,9 +979,11 @@ h4 span {
   }
   .footer__img {
     position: absolute;
-    top: 42%;
-    right: 400px;
-    transform: translateX(300px);
+    top: 44%;
+    right: 70px;
+  }
+  .footer__img img {
+    width: 150px;
   }
   .footer__comp {
     margin-top: 30px;
