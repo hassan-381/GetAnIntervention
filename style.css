@@ -355,13 +355,18 @@ button {
   width: 100%;
   max-width: 1520px;
   margin: auto;
+  position: relative;
 }
 .footer__inner__container {
   margin-top: 30px;
   display: flex;
   position: relative;
 }
-
+#vecter {
+  position: absolute;
+  right: 420px;
+  bottom: 20px;
+}
 .play_button {
   position: absolute;
   top: 33%;
@@ -1056,6 +1061,13 @@ h4 span {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
+  }
+  #vecter {
+    width: 150px;
+    position: absolute;
+    right: 7px;
+    bottom: 20px;
   }
   .footer__comp2 {
     padding: 20px;
