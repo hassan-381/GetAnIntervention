@@ -292,7 +292,6 @@ button {
 }
 .btn {
   display: flex;
-  width: 100%;
   padding: 45px;
   text-align: center;
   justify-content: center;
@@ -304,16 +303,12 @@ button {
   background-color: transparent;
   border-radius: 4px;
 }
-.advocacy {
-  width: 100%;
-  position: relative;
-}
 #advocacy__img {
   position: absolute;
   display: flex;
   justify-content: center;
   padding-left: 40px;
-  top: 120px;
+  top: 255px;
 }
 .s4__comp1 {
   display: flex;
@@ -331,6 +326,7 @@ button {
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   margin-bottom: 50px;
+  position: relative;
 }
 #s4__para {
   font-family: "Montserrat";
@@ -359,11 +355,8 @@ button {
   width: 100%;
   max-width: 1520px;
   margin: auto;
-  /* height: 500px; */
 }
 .footer__inner__container {
-  /* max-width: 1280px; */
-  /* margin: auto; */
   margin-top: 30px;
   display: flex;
   position: relative;
@@ -379,8 +372,6 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  /* height: 500px; */
 }
 .footer__comp2 {
   width: 100%;
@@ -563,6 +554,12 @@ h4 span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .btn {
+    width: none;
+  }
+  #advocacy__img {
+    display: none;
   }
   .s4__comp1 {
     display: flex;
