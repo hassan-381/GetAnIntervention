@@ -77,6 +77,7 @@ h1 {
 h1 span {
   -webkit-text-stroke: #fff 1px;
   color: transparent;
+  font-family: sans-serif;
 }
 p {
   color: #fff;
@@ -97,9 +98,7 @@ p {
   width: 200px;
   height: 48px;
 }
-fieldset {
-  border-radius: 12px;
-}
+
 #input2 {
   border-radius: 2px;
   background: transparent;
@@ -141,18 +140,39 @@ input::-webkit-input-placeholder {
 .from2 {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 10px;
   height: 48px;
-  align-items: center;
-  padding-right: 20px;
   gap: 1rem;
   border: 1px solid #ffffff;
   width: 100%;
   color: #ffffffb2;
-  font-size: 16px;
+  font-size: 14px;
+  border-radius: 2px;
+}
+#country {
+  background: #000;
+  width: 100%;
+}
+option {
+  color: #ffffffb2;
+  background-color: #2a7d6c;
+  font-family: "Montserrat";
+  font-size: 14px;
+}
+select {
+  color: #ffffff;
+  padding: px;
+  font-size: 14px;
+  background: transparent;
+  outline: none;
+  width: 100%;
+  border: none;
+  appearance: none;
+  font-family: "Montserrat";
 }
 .from2 img {
-  width: 10px;
+  width: 12px;
   height: 8px;
 }
 #country {
@@ -174,6 +194,7 @@ input::-webkit-input-placeholder {
   font-weight: 700;
   cursor: pointer;
 }
+
 .s2 {
   padding: 20px;
   padding-bottom: 100px;
@@ -188,11 +209,12 @@ input::-webkit-input-placeholder {
   padding-bottom: 30px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2.5rem;
+  gap: 1.5rem;
   justify-content: space-between;
 }
 .images img {
   border-radius: 12px;
+  width: 100%;
 }
 .para {
   font-family: "Montserrat";
@@ -213,6 +235,12 @@ input::-webkit-input-placeholder {
   display: flex;
   flex-direction: column;
 }
+#para__btn {
+  padding: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 h3 {
   padding-top: 30px;
   color: black;
@@ -225,6 +253,7 @@ h3 {
 h3 span {
   -webkit-text-stroke: black 1px;
   color: transparent;
+  font-family: sans-serif;
 }
 button {
   margin-top: 10px;
@@ -274,6 +303,7 @@ button {
   position: absolute;
 }
 .s3__para h4 {
+  font-size: 24px;
   color: white;
   display: flex;
   flex-direction: column;
@@ -313,11 +343,16 @@ button {
 .s4__comp1 {
   display: flex;
   justify-content: space-between;
-  gap: 2rem;
   margin: 0 auto;
   max-width: 1280px;
   padding-top: 40px;
   padding-bottom: 40px;
+}
+.double__Para {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 22px;
 }
 #s4__comp2 {
   justify-content: space-between;
@@ -328,9 +363,16 @@ button {
   margin-bottom: 50px;
   position: relative;
 }
+#s4__para1 {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+}
 #s4__para {
   font-family: "Montserrat";
-  width: 60%;
+  /* width: 100%; */
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -364,8 +406,9 @@ button {
 }
 #vecter {
   position: absolute;
-  right: 420px;
+  right: 40px;
   bottom: 20px;
+  width: 10%;
 }
 .play_button {
   position: absolute;
@@ -417,6 +460,7 @@ h4 {
 h4 span {
   -webkit-text-stroke: white 1px;
   color: transparent;
+  font-family: sans-serif;
 }
 .footer__3 {
   display: flex;
@@ -466,6 +510,9 @@ h4 span {
   .footer__comp2 {
     padding-bottom: 60px;
     padding: 30px;
+  }
+  .images {
+    display: none;
   }
   .footer__inner__container {
     /* max-width: 1280px; */
@@ -579,6 +626,9 @@ h4 span {
     grid-template-columns: repeat(2, 1fr);
 
     gap: 1rem;
+  }
+  .double__Para {
+    display: flex;
   }
   #s4__para {
     width: 100%;
@@ -707,6 +757,13 @@ h4 span {
     gap: 1rem;
     padding-bottom: 5px;
     padding: 20px;
+  }
+  .double__Para {
+    display: flex;
+    flex-direction: column;
+  }
+  .para__text {
+    font-size: 18px;
   }
   #s4__para {
     width: 100%;
@@ -857,6 +914,13 @@ h4 span {
     flex-direction: column;
     gap: 1rem;
     padding-bottom: 5px;
+  }
+  .double__Para {
+    display: flex;
+    flex-direction: column;
+  }
+  .para__text {
+    font-size: 18px;
   }
   #s4__para {
     width: 100%;
@@ -1036,6 +1100,13 @@ h4 span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .double__Para {
+    display: flex;
+    flex-direction: column;
+  }
+  .para__text {
+    font-size: 18px;
   }
   h3 {
     text-align: center;
