@@ -151,19 +151,13 @@ input::-webkit-input-placeholder {
 }
 
 option {
-  color: #ffffffb2;
   background-color: #2a7d6c;
   font-family: "Montserrat";
   font-size: 14px;
-  outline: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
-  height: 48px;
-  gap: 1rem;
   border: 1px solid #ffffff;
-  width: 100%;
   color: #ffffffb2;
   font-size: 14px;
   border-radius: 2px;
