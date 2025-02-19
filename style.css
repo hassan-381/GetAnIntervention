@@ -333,13 +333,21 @@ button {
   background-color: transparent;
   border-radius: 4px;
 }
-#advocacy__img {
+.advocacy__img {
+  visibility: hidden;
   position: absolute;
   display: flex;
   justify-content: center;
   padding-left: 40px;
   top: 255px;
+  transition: opacity 3s ease-in-out, visibility 0.3s ease-in-out;
 }
+
+.btn:hover + .advocacy__img {
+  visibility: visible;
+  opacity: 1;
+}
+
 .s4__comp1 {
   display: flex;
   justify-content: space-between;
@@ -610,8 +618,15 @@ h4 span {
   .btn {
     width: none;
   }
-  #advocacy__img {
-    display: none;
+  .advocacy__img {
+    visibility: hidden;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    padding-left: 40px;
+    top: 255px;
+    right: 60px;
+    transition: opacity 3s ease-in-out, visibility 0.3s ease-in-out;
   }
   .s4__comp1 {
     display: flex;
@@ -774,6 +789,16 @@ h4 span {
     gap: 1rem;
     padding: 20px;
   }
+  .advocacy__img {
+    visibility: hidden;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    padding-left: 40px;
+    left: 170px;
+    top: 555px;
+    transition: opacity 3s ease-in-out, visibility 0.3s ease-in-out;
+  }
   .footer__comp {
     display: flex;
     flex-direction: column;
@@ -918,6 +943,17 @@ h4 span {
   .double__Para {
     display: flex;
     flex-direction: column;
+  }
+  .advocacy__img {
+    visibility: hidden;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    padding-left: 40px;
+    left: 100px;
+    top: 435px;
+
+    transition: opacity 3s ease-in-out, visibility 0.3s ease-in-out;
   }
   .para__text {
     font-size: 18px;
@@ -1105,6 +1141,17 @@ h4 span {
     display: flex;
     flex-direction: column;
   }
+  .advocacy__img {
+    visibility: hidden;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    padding-left: 40px;
+    left: 30px;
+    top: 435px;
+
+    transition: opacity 3s ease-in-out, visibility 0.3s ease-in-out;
+  }
   .para__text {
     font-size: 18px;
   }
@@ -1216,6 +1263,7 @@ h4 span {
     font-size: 12px;
     text-align: start;
   }
+
   #bars {
     display: block;
   }
